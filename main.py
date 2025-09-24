@@ -22,7 +22,7 @@ from kivy.uix.filechooser import FileChooserIconView
 from kivy.uix.popup import Popup
 
 DB_NAME = "hariom-attendance.db"
-Window.size = (360, 640)
+#Window.size = (360, 640)
 
 
 
@@ -276,3 +276,4 @@ class RollCallApp(MDApp):
 
 if __name__ == '__main__':
     RollCallApp().run()
+
